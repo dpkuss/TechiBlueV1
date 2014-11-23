@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:18
+-keep class com.ibm.mobile.services.push.IBMPushBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.ibm.mobile.services.push.IBMPushIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.techiblue.client.CordovaApp { <init>(...); }
+

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techiblue.client"
+    android:hardwareAccelerated="true"
+    android:versionCode="1"
+    android:versionName="0.0.1" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    
+    
+    
+    <application
+        android:name="com.techiblue.client.PushNotificationApps"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.techiblue.client.TabBarActvity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:label="@string/activity_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter android:label="@string/launcher_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.techiblue.client.IBMPushNotification" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.techiblue.client.ViewNotificationDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.AndroidCordovaPlugin.AndroidCordovaPlugin.NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- Push Settings End -->
+        </activity>
+ 
+
+ <activity android:name="dynamicSimulator">
+        </activity>
+          <activity android:name="SpinActivity">
+        </activity>
+        
+         <activity android:name="TimerActivity">
+        </activity>
+        <activity android:name="FirstActivity">
+        </activity>
+ 
+        <activity android:name="SecondActivity">
+        </activity>
+  <activity android:name="ThridActivity">
+        </activity>
+ 
+        <activity android:name="FourthActivity">
+        </activity>
+  <activity android:name="FifthActivity">
+        </activity>
+ 
+     
+ 
+        
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+        <service android:enabled="true" android:name="deviceDetl" />
+
+        <service android:name="com.ibm.mobile.services.push.IBMPushIntentService" />
+
+        <receiver
+            android:name="com.ibm.mobile.services.push.IBMPushBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.techiblue.client" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="com.techiblue.client" />
+            </intent-filter>
+        </receiver>
+        
+        
+
+        <activity
+            android:name="com.techiblue.client.ItemListActivity"
+            android:label="@string/title_item_list" >
+        </activity>
+        <activity
+            android:name="com.techiblue.client.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName="com.techiblue.client.ItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techiblue.client.ItemListActivity" />
+        </activity>
+        
+        <service android:name="com.techiblue.client.startNotificationService" >
+        </service>
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.techiblue.client.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.techiblue.client.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+</manifest>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+    
+    
+    <Button
+		    android:id="@+id/BackBt"
+		    android:layout_width="35dp"
+		    android:layout_height="35dp"
+		    android:background="@drawable/arroww"
+		    android:onClick="pushNotifyEnd"
+		    android:layout_marginLeft="10dp">
+	</Button>
+	
+    
+      <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+		 
+	    <EditText
+	        android:id="@+id/itemToAdd"
+	        android:singleLine="true"
+	        android:imeOptions="actionDone"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="19sp"
+	        android:hint="@string/newMsg"
+	        android:ems="10"
+	        android:background="@color/white"
+	        android:paddingTop="20dp"
+	        android:paddingBottom="20dp"
+	        android:paddingLeft="55dp">
+	    </EditText>
+	  
+		<Button
+		    android:id="@+id/acceptText"
+		    android:layout_width="35dp"
+		    android:layout_height="35dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/plusbutton"
+		    android:onClick="createItem"
+		    android:layout_marginLeft="10dp">
+		</Button>
+	</RelativeLayout>
+   
+      
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        android:choiceMode="multipleChoice"
+        />
+      
+	     
+   <WebView
+   android:id="@+id/mybrowser"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+  />
+    
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+		 
+	    <EditText
+	        android:id="@+id/itemToAdd"
+	        android:singleLine="true"
+	        android:imeOptions="actionDone"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="19sp"
+	        android:hint="@string/newMsg"
+	        android:ems="10"
+	        android:background="@color/white"
+	        android:paddingTop="20dp"
+	        android:paddingBottom="20dp"
+	        android:paddingLeft="55dp">
+	    </EditText>
+	  
+		<Button
+		    android:id="@+id/acceptText"
+		    android:layout_width="35dp"
+		    android:layout_height="35dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/plusbutton"
+		    android:onClick="createItem"
+		    android:layout_marginLeft="10dp">
+		</Button>
+	</RelativeLayout>
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+    
+    
+    <Button
+		    android:id="@+id/BackBt"
+		    android:layout_width="35dp"
+		    android:layout_height="35dp"
+		    android:background="@drawable/arroww"
+		    android:onClick="pushNotifyEnd"
+		    android:layout_marginLeft="10dp">
+	</Button>
+	
+    
+      <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+		 
+	    <EditText
+	        android:id="@+id/itemToAdd"
+	        android:singleLine="true"
+	        android:imeOptions="actionDone"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="19sp"
+	        android:hint="@string/newMsg"
+	        android:ems="10"
+	        android:background="@color/white"
+	        android:paddingTop="20dp"
+	        android:paddingBottom="20dp"
+	        android:paddingLeft="55dp">
+	    </EditText>
+	  
+		<Button
+		    android:id="@+id/acceptText"
+		    android:layout_width="35dp"
+		    android:layout_height="35dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:background="@drawable/plusbutton"
+		    android:onClick="createItem"
+		    android:layout_marginLeft="10dp">
+		</Button>
+	</RelativeLayout>
+   
+      
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        android:choiceMode="multipleChoice"
+        />
+      
+	     
+   <WebView
+   android:id="@+id/mybrowser"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+  />
+    
+ 
+ 
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout> -->

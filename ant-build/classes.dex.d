@@ -1,0 +1,21 @@
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes.dex : \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\BuildConfig.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\CordovaApp.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\Manifest$permission.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\Manifest.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\R$attr.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\R$drawable.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\R$integer.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\R$string.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\R$xml.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\classes\com\techiblue\client\R.class \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\classes-bcccfc85ed0a3912386141b179bed622.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmdata-cordova-ecb24170a6aa3e62e6e604468f143372.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmbluemix-099584d1f3e0fa1825bfa2c5d64ebdf8.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmpush-08153baecd6e5bd625de50e60d236af1.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmdata-7b15b8ae1d51f7864966cb47b721c42d.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmpush-cordova-0a06df9f11500fc532c8559920c18ac3.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmfilesync-dead1f6f4fe9ace5b9e8e11bef67affb.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\google-play-services-d7a1a998df3ec70b8d7009dd8619e46b.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\android-support-v4-f5ddb95bfaf53c0197585b31aa8ea37b.jar \
+C:\AAAAAAAAA\2013\Techothan14\CordovaPrg\TechiBlue1\platforms\android\ant-build\dexedLibs\ibmbluemix-cordova-7e6447cbea88bff82a44f78e86f3a2b1.jar \
